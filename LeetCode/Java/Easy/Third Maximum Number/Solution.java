@@ -18,7 +18,7 @@ class Solution {
         }
 
         for(int i=0;i<nums.length;i++){
-            if(nums[i]>tmax && nums[i]<smax){
+            if(nums[i]>=tmax && nums[i]<smax){
                 tmax=nums[i];
                 tmax_found++;
             }
