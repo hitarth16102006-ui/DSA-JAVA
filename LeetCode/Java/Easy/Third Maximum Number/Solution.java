@@ -1,6 +1,6 @@
 class Solution {
     public int thirdMax(int[] nums) {
-        int t
+        int tmax_found=0;
         int max=0;
         int smax=-1;
         int tmax=Integer.MIN_VALUE;
@@ -20,10 +20,11 @@ class Solution {
         for(int i=0;i<nums.length;i++){
             if(nums[i]>tmax && nums[i]<smax){
                 tmax=nums[i];
+                tmax_found++;
             }
         }
 
-        if(tmax>Integer.MIN_VALUE){
+        if(tmax_found>0){
             return tmax;
         }else{
             return max;
