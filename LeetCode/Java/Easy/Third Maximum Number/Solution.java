@@ -22,7 +22,7 @@ class Solution {
             }
         }
 
-        if(tmax>0){
+        if(tmax>Integer){
             return tmax;
         }else{
             return max;
