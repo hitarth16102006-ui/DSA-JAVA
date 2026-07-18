@@ -2,7 +2,7 @@ class Solution {
     public int thirdMax(int[] nums) {
         int max=0;
         int smax=-1;
-        int tmax=INT.MIN;
+        int tmax=Integer.MIN_VALUE;
 
         for(int i=0;i<nums.length;i++){
             if(nums[i]>max){
