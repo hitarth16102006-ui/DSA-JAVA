@@ -3,7 +3,7 @@ class Solution {
 
         int n = arr.length;
 
-        for (int i = 0; i < n - 1; i++) {
+       
 
             int l = i;
             int r = i + 1;
@@ -18,7 +18,7 @@ class Solution {
 
                 r++;
             }
-        }
+        
 
         return arr;
     }
