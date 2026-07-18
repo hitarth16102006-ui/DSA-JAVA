@@ -22,7 +22,7 @@ class Solution {
             }
         }
 
-        if(tmax>Integer){
+        if(tmax>Integer.MIN_VALUE){
             return tmax;
         }else{
             return max;
