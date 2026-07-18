@@ -1,5 +1,6 @@
 class Solution {
     public int thirdMax(int[] nums) {
+        int t
         int max=0;
         int smax=-1;
         int tmax=Integer.MIN_VALUE;
