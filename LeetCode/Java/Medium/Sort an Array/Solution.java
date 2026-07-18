@@ -5,8 +5,8 @@ class Solution {
 
        
 
-            int l = i;
-            int r = i + 1;
+            int l = 0;
+            int r = n-1;
 
             while (r < n) {
 
