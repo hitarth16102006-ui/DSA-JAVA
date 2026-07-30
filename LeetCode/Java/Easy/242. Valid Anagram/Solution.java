@@ -6,6 +6,8 @@ class Solution {
         Arrays.sort(s1);
         Arrays.sort(t1);
 
+        
+
         for(int i=0;i<t1.length;i++){
             if (s1[i]!=t1[i]){
                 return false;
