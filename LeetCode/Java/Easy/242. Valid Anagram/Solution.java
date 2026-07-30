@@ -10,7 +10,7 @@ class Solution {
             return false;
         }
 
-        for(int i=0;i<t1.length;i++){
+        for(int i=0;i<s1.length;i++){
             if (s1[i]!=t1[i]){
                 return false;
             }
